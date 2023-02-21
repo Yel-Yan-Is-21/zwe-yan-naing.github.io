@@ -88,6 +88,9 @@
         width: 360px;
         margin: 0 auto;
     }
+    .home__handle{
+        width: 15rem;
+    }
 }
 
 @media(min-width: 767px){
@@ -150,7 +153,7 @@
     }
 
     .services__container{
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         column-gap: 3rem;
     }
     .services__card{

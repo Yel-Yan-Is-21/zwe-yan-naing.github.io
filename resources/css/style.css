@@ -414,6 +414,8 @@ body.light-theme{
 
     border-radius: 2rem;
     overflow: hidden;
+    width: 11rem;
+    aspect-ratio: 1;
 }
 .home__social,
 .home__scroll{
@@ -488,8 +490,11 @@ body.light-theme{
     row-gap: 2.5rem;
 }
 .about__img{
+    overflow: hidden;
     border-radius: 2rem;
     justify-self: center;
+    width: 15rem;
+    aspect-ratio: 1;
 }
 .about__info{
     display: grid;
@@ -543,6 +548,7 @@ body.light-theme{
 .services__container{
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
+    justify-content: center;
     padding-top: 1rem;
 }
 .services__card{
