@@ -1,6 +1,6 @@
 @import url(./style.css);
 /* ---------FOR SMALL DEVICES---------- */
-@media(max-width: 320px){
+@media(max-width: 375px){
 /* header  */
     .nav__menu{
         padding: 1rem 1.5rem;
@@ -32,9 +32,14 @@
 /* work section */
     .work__filters{
         --gap: 0.2em;
+        padding: 0 1rem;
+        text-align: center;
     }
     .work__item{
         font-size: var(--small-font-size);
+    }
+    .work__card{
+        width: 80%;
     }
 }
 /* ---------FOR MEDIUM DEVICES---------- */

@@ -54,7 +54,7 @@ linkWorkItem.forEach(link => link.addEventListener("click", activeWork));
 
 /*=================SWIPER JS SPACE BETWEEN TESTIMONIAL SECTION=====================*/
 let swiperTestimonail = new Swiper(".testimonial__container", {
-    spaceBetween: 24,
+    spaceBetween: 16,
     loop: true,
     grabCursor: true,
 
@@ -138,6 +138,6 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .footer__title');
 sr.reveal('.home__handle', {delay: 700});
 sr.reveal('.home__social, .home__scroll, .skills__content, .work__card , .footer__copy', {delay: 900, origin: 'bottom'});
-sr.reveal('.section__title, .testimonial__card, .section__subtitle,.about__img, .about__info, .btn , .about__description');
-sr.reveal(".work__item, .contact__card, .footer__item", {origin: 'left'})
-sr.reveal(".contact__form, .footer__social-link", {origin: 'right'})
+sr.reveal('.section__title, .section__subtitle,.about__img, .about__info, .btn , .about__description');
+sr.reveal(".work__item, .contact__card, .footer__item", {origin: 'left', delay : 100, duration : 1000})
+sr.reveal(" .footer__social-link", {origin: 'right'})
